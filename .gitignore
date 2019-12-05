@@ -1,0 +1,6 @@
+__pycahe__
+data/input/*
+data/output/*
+model/ade20k/*
+model/cityscapes/*
+utils/__pycahe__
