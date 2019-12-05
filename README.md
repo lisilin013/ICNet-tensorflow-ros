@@ -17,6 +17,14 @@ self.image_sub = rospy.Subscriber("/camera_array/cam0/image_raw", Image, self.ca
 # proba: an image for storing probability of the semantic label
 visual_img, classes_img, proba = self.icnet_ros.predict(cv_image)
 ```
+## running
+```bash
+# terminal 1
+roscore
+
+# terminal 2
+python icnet_ros.py
+```
 
 ===============================================================
 # Fork from https://github.com/hellochick/ICNet-tensorflow
